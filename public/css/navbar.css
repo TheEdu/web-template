@@ -1,0 +1,54 @@
+
+/* Navbar CSS */
+      
+nav {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  background: rgb(41,44,47)!important; /* Fall-back for browsers that don't support rgba */
+  background: rgba(41,44,47,0.2)!important;
+  -webkit-transition: all .4s ease-in;
+}
+
+.nav-small {
+  background: rgba(41,44,47,0.9)!important; 
+}
+
+#nav-logo {
+  width: 19em;
+  padding: 1em 1em;
+  -webkit-transition: all .5s ease-in;
+}
+
+.nav-logo-small{
+  padding: .1em .1em!important;
+  width: 7em!important;
+}
+
+.nav-link {
+  padding: 1.2em 1.2em;
+  -webkit-transition: all 0.8s ease-in;
+}
+
+.nav-link-small {
+  padding: 1.2em 1.2em;
+}
+
+.nav-link-selected {
+  color: black!important;
+  background: white; 
+}
+
+@media (max-width: 880px) {
+  nav {
+    background: rgb(41,44,47)!important; 
+  }
+
+  .nav-link  {
+    padding: .1em .1em;
+  }
+
+  #nav-logo{
+    padding: .1em .1em!important;
+    width: 7em!important;
+  }
+}
