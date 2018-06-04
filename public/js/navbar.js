@@ -1,6 +1,7 @@
 //Funcion para cambiar la seccion activa en el documento
 function changeActiveSection() {
   $('section').each(function () {
+    var documentWidth = $( document ).width();
     var seccion = $(this);
     var height = $("nav").outerHeight();
 
@@ -9,10 +10,11 @@ function changeActiveSection() {
 
     if (pageYOffset + height >= seccion.position().top && pageYOffset + height < seccion.position().top + seccion.height() && pageYOffset != 0){
       $(anchor).addClass('active');
-      $(anchor).addClass('nav-link-selected');
+      // El breakpoint donde colapsa el nav bar de Bootstrap es 992px
+      if (documentWidth >= 992) $(anchor).addClass('nav-link-selected');
     } else {
       $(anchor).removeClass('active');
-       $(anchor).removeClass('nav-link-selected');
+      $(anchor).removeClass('nav-link-selected');
     }
   });
 }

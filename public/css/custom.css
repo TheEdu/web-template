@@ -1,13 +1,32 @@
 html {
-  scroll-behavior: smooth;
+  	scroll-behavior: smooth;
 }
 
 body {
-  position: relative;
+  	position: relative;
 }
 
-#section1 {padding-top:0;height:500px;color: #fff; background-color: #1E88E5;text-align: center;}
+#section1 {
+	padding-top:0;height:700px;color: #fff; background-color: #1E88E5;text-align: center;
+	background: url("../img/it-solutions-6.jpg") no-repeat center fixed;
+	background-size: cover;
+}
 #section2 {padding-top:0;height:500px;color: #fff; background-color: #673ab7;text-align: center;}
 #section3 {padding-top:0;height:500px;color: #fff; background-color: #ff9800;text-align: center;}
 #section4 {padding-top:0;height:500px;color: #fff; background-color: #00bcd4;text-align: center;}
 #section5 {padding-top:0;height:500px;color: #fff; background-color: #009688;text-align: center;}
+
+
+.center {
+    line-height: 700px;
+    height: 700px;
+    border: 3px solid green;
+    text-align: center;
+}
+
+
+.center h1 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}

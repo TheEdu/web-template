@@ -38,7 +38,9 @@ nav {
   background: white; 
 }
 
-@media (max-width: 880px) {
+
+/* El breakpoint donde colapsa el nav bar de Bootstrap es 992px */
+@media (max-width: 991px) {
   nav {
     background: rgb(41,44,47)!important; 
   }
