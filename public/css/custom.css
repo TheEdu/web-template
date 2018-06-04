@@ -14,13 +14,12 @@ body {
 #section2 {padding-top:0;height:500px;color: #fff; background-color: #673ab7;text-align: center;}
 #section3 {padding-top:0;height:500px;color: #fff; background-color: #ff9800;text-align: center;}
 #section4 {padding-top:0;height:500px;color: #fff; background-color: #00bcd4;text-align: center;}
-#section5 {padding-top:0;height:500px;color: #fff; background-color: #009688;text-align: center;}
+#section5 {padding-top:0;height:400px;color: #fff; background-color: #009688;text-align: center;}
 
 
 .center {
     line-height: 700px;
     height: 700px;
-    border: 3px solid green;
     text-align: center;
 }
 
